@@ -1,7 +1,6 @@
 # Cassandra-Data-Model
 
-INTRODUCTION: The goal of this project is to create a NoSql database using Cassandra to analise songs and user activity data collected by Sparkify. This makes use of models to design and create tables to optimise queries on datasets made available by Sparkify as log data and song data in JSON formats. At the end of this project, the Sparkify analysis team is able to retrieve results based on queries on what songs its users are listening to.
-
+INTRODUCTION: The purpose of this assignment is to construct a NoSql database using Cassandra to examine songs and user activity data collected by Sparkify. This makes use of models to design and create tables to optimise queries on datasets made available by Sparkify as log data and song data in JSON formats. At the end of this project, the Sparkify analysis team can retrieve results based on queries on what songs its users are listening to.
 
 IMPORTANT PROCESSES:
 - Create tables in sql_queries.py
@@ -24,3 +23,7 @@ Dim:
 users = Made up of users registered to the Sparkify app. 
 
 songs = Made up of all available songs in the Sparkify music dB 
+
+artists = Made up of all artists of the songs in the Sparkify misuc dB 
+
+time = Made up of the timestamps of song plays by users of the Sparkify app.
