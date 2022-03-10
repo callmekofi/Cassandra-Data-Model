@@ -11,3 +11,10 @@ IMPORTANT PROCESSES:
 - Test queries on dB.
 
 NOTE: ETL pipeline consists of retriving data from files and transforming them into tables in a dB. This process starts by extracting files using python file-handling methods and pandas to read the individual files. Functions are created to iterate over the individual files in the dir and extract information from the files. The files are processed based on content and inserted into the individual tables created using sql queries.
+
+
+TABLES CREATED:
+
+Facts: 
+
+Songplays = Made up of songplay events for the datasets given to inform business decision.
