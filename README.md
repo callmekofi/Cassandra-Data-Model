@@ -18,3 +18,9 @@ TABLES CREATED:
 Facts: 
 
 Songplays = Made up of songplay events for the datasets given to inform business decision.
+
+Dim: 
+
+users = Made up of users registered to the Sparkify app. 
+
+songs = Made up of all available songs in the Sparkify music dB 
